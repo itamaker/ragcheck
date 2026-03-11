@@ -1,0 +1,15 @@
+[
+  {
+    "query_id": "q1",
+    "results": ["doc-1", "doc-2", "doc-9"]
+  },
+  {
+    "query_id": "q2",
+    "results": ["doc-8", "doc-4", "doc-6"]
+  },
+  {
+    "query_id": "q3",
+    "results": ["doc-7", "doc-5", "doc-2"]
+  }
+]
+

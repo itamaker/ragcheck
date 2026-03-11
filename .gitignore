@@ -1,0 +1,5 @@
+dist/
+ragcheck
+*.out
+*.test
+.DS_Store
