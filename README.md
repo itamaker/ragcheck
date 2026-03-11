@@ -1,8 +1,14 @@
 # ragcheck
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 `ragcheck` is a Go CLI for offline retrieval evaluation.
 
 It gives you fast `Precision@k`, `Recall@k`, `HitRate@k`, and `MRR@k` scores without spinning up notebooks or Python-based eval tooling.
+
+## Support
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/amaker)
 
 ## Quickstart
 
@@ -83,3 +89,14 @@ go build -o dist/ragcheck .
 
 - Keep qrels and run files aligned on `query_id`.
 - Maintainer release steps live in `PUBLISHING.md`.
+
+## Contributors ✨
+
+| [![itamaker][avatar-itamaker]][author-itamaker] |
+| --- |
+| [itamaker][author-itamaker] |
+
+
+
+[author-itamaker]: https://github.com/itamaker
+[avatar-itamaker]: https://images.weserv.nl/?url=https://github.com/itamaker.png&h=120&w=120&fit=cover&mask=circle&maxage=7d
