@@ -16,17 +16,8 @@ It gives you fast `Precision@k`, `Recall@k`, `HitRate@k`, and `MRR@k` scores wit
 
 ### Install
 
-Install with your preferred method:
-
 ```bash
-# From the custom tap
-brew tap itamaker/tap https://github.com/itamaker/homebrew-tap
 brew install itamaker/tap/ragcheck
-```
-
-```bash
-# Or install from source
-go install github.com/itamaker/ragcheck@latest
 ```
 
 <details>
@@ -42,8 +33,6 @@ Current release archives:
 Each archive contains a single executable: `ragcheck`.
 
 </details>
-
-If the repository is still private, release-based installs require GitHub access to the repository assets.
 
 ### First Run
 
