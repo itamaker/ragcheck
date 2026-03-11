@@ -22,7 +22,7 @@ This makes it suitable for both engineering smoke checks and lightweight researc
 From source:
 
 ```bash
-go install github.com/YOUR_GITHUB_USER/ragcheck@latest
+go install github.com/itamaker/ragcheck@latest
 ```
 
 From Homebrew after you publish a tap formula:
