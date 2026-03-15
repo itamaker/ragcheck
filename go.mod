@@ -1,4 +1,4 @@
-module github.com/jonny/current-projects/ragcheck
+module github.com/itamaker/ragcheck
 
 go 1.23.0
 

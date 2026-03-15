@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/jonny/current-projects/ragcheck/internal/app"
+	"github.com/itamaker/ragcheck/internal/app"
 )
 
 func main() {
