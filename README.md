@@ -2,9 +2,9 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-`ragcheck` is a Go CLI for offline retrieval evaluation.
+`ragcheck` is a Go CLI for evaluating retrieval and RAG runs offline.
 
-It gives you fast `Precision@k`, `Recall@k`, `HitRate@k`, and `MRR@k` scores without spinning up notebooks or Python-based eval tooling.
+It gives you fast `Precision@k`, `Recall@k`, `HitRate@k`, `MRR@k`, `MAP@k`, `nDCG@k`, and lightweight answer/context judges without spinning up notebooks or Python-based eval tooling.
 
 ![ragcheck social preview](docs/images/social-preview.png)
 
@@ -25,10 +25,10 @@ brew install itamaker/tap/ragcheck
 
 Current release archives:
 
-- macOS (Apple Silicon/arm64): `ragcheck_0.1.1_darwin_arm64.tar.gz`
-- macOS (Intel/x86_64): `ragcheck_0.1.1_darwin_amd64.tar.gz`
-- Linux (arm64): `ragcheck_0.1.1_linux_arm64.tar.gz`
-- Linux (x86_64): `ragcheck_0.1.1_linux_amd64.tar.gz`
+- macOS (Apple Silicon/arm64): `ragcheck_0.2.0_darwin_arm64.tar.gz`
+- macOS (Intel/x86_64): `ragcheck_0.2.0_darwin_amd64.tar.gz`
+- Linux (arm64): `ragcheck_0.2.0_linux_arm64.tar.gz`
+- Linux (x86_64): `ragcheck_0.2.0_linux_amd64.tar.gz`
 
 Each archive contains a single executable: `ragcheck`.
 
