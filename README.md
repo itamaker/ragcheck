@@ -39,7 +39,21 @@ Each archive contains a single executable: `ragcheck`.
 Run:
 
 ```bash
+ragcheck
+```
+
+This launches the interactive Bubble Tea terminal UI.
+
+You can still use the direct command form:
+
+```bash
 ragcheck score -qrels examples/qrels.json -run examples/run.json -k 3
+```
+
+Judge answer quality and grounding:
+
+```bash
+ragcheck judge -input examples/judge.json
 ```
 
 ## Requirements
@@ -58,6 +72,8 @@ Supported metrics:
 - `Recall@k`
 - `HitRate@k`
 - `MRR@k`
+- `MAP@k`
+- `nDCG@k`
 
 ## Build From Source
 
@@ -73,8 +89,9 @@ go build -o dist/ragcheck .
 
 1. Loads qrels and retrieval run files from JSON.
 2. Matches retrieved document IDs against relevant sets.
-3. Computes standard top-k retrieval metrics.
-4. Prints quick offline evaluation summaries for engineering and research loops.
+3. Computes standard and graded top-k retrieval metrics.
+4. Can judge answer relevance, context relevance, groundedness, and reference coverage for RAG outputs.
+5. Prints quick offline evaluation summaries for engineering and research loops.
 
 ## Notes
 
@@ -91,3 +108,7 @@ go build -o dist/ragcheck .
 
 [author-zhaoyang]: https://github.com/itamaker
 [avatar-zhaoyang]: https://images.weserv.nl/?url=https://github.com/itamaker.png&h=120&w=120&fit=cover&mask=circle&maxage=7d
+
+## License
+
+[MIT](LICENSE)

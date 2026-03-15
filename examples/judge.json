@@ -1,0 +1,22 @@
+[
+  {
+    "query_id": "q1",
+    "question": "What caused the retrieval latency spike?",
+    "answer": "The latency spike came from cache misses and slower vector search.",
+    "reference": "Cache misses and slow vector search caused the retrieval latency spike.",
+    "contexts": [
+      "The incident review says cache misses increased tail latency during the rollout.",
+      "A slower vector search path also contributed to the retrieval latency spike."
+    ]
+  },
+  {
+    "query_id": "q2",
+    "question": "Why did recall drop in the new retriever?",
+    "answer": "Recall dropped because the new chunking strategy removed key entity spans.",
+    "reference": "The new chunking strategy removed key entity spans and reduced recall.",
+    "contexts": [
+      "The benchmark notes say the revised chunking strategy removed important entity spans.",
+      "That change reduced retrieval recall on long-form questions."
+    ]
+  }
+]
